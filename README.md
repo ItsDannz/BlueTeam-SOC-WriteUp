@@ -17,11 +17,10 @@ investigation. This keeps the archive open to new platforms and types of exercis
 ## Browsing the Archive
 
 ```text
-writeups/
-└── <platform-or-source>/
-    └── <investigation-name>/
-        ├── README.md
-        └── assets/
+<platform-or-source>/
+    |-- <investigation-name>/
+        |-- README.md
+        |-- assets/
 ```
 
 The case README contains the investigation. The `assets/` directory holds supporting
