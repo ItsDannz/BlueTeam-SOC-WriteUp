@@ -46,12 +46,10 @@ samples can be referenced by their original source and file hashes.
 Individual write-ups use the following sections where relevant:
 
 - **Overview:** platform or source, scenario, objectives, and investigation scope.
-- **Environment and evidence:** tools, artifacts, data sources, and relevant timestamps.
-- **Investigation:** steps taken, queries, filters, commands, and supporting screenshots.
+- **Environment:** tools, artifacts, data sources, and relevant timestamps.
+- **Investigation:** steps taken, queries, filters, commands, evidence, and supporting screenshots.
 - **Findings:** observed activity, affected entities, and the reconstructed timeline.
 - **Indicators:** relevant IP addresses, domains, URLs, file names, and hashes.
-- **Assessment:** classification, confidence, escalation rationale, and remaining gaps.
-- **Response recommendations:** containment, remediation, and further investigation.
 - **Lessons learned and references:** takeaways, improvements, and supporting resources.
 
 ## Learning Notes
