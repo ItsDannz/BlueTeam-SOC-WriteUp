@@ -46,7 +46,7 @@ samples can be referenced by their original source and file hashes.
 Individual write-ups use the following sections where relevant:
 
 - **Overview:** platform or source, scenario, objectives, and investigation scope.
-- **Environment:** tools, artifacts, data sources, and relevant timestamps.
+- **Environment:** tools, artifacts, and data sources.
 - **Investigation:** steps taken, queries, filters, commands, evidence, and supporting screenshots.
 - **Findings:** observed activity, affected entities, and the reconstructed timeline.
 - **Indicators:** relevant IP addresses, domains, URLs, file names, and hashes.
