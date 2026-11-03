@@ -412,11 +412,11 @@ These mappings describe observed behavior or explicitly marked hypotheses; they 
 
 | Technique | Supporting evidence | Assessment |
 |---|---|---|
-| [T1046 — Network Service Discovery](https://attack.mitre.org/techniques/T1046/) | Rapid probes across multiple destination ports and HTTP service enumeration. | Observed service-discovery behavior. |
-| [T1135 — Network Share Discovery](https://attack.mitre.org/techniques/T1135/) | SMB requests targeting the `IPC$` and `Documents` shares. | Observed share probing. |
-| [T1505.003 — Server Software Component: Web Shell](https://attack.mitre.org/techniques/T1505/003/) | SMB file operations involving `shell.aspx` on the IIS host. | Suspected web-shell placement; contents and execution remain unverified. |
-| [T1547.001 — Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001/) | The executable's reported path is in the common Startup folder. | Potential logon persistence; automatic execution at logon was not observed. |
-| [T1027.002 — Obfuscated Files or Information: Software Packing](https://attack.mitre.org/techniques/T1027/002/) | UPX classification and supporting strings. | Packing observed; packing alone does not establish malicious intent. |
+| [T1046 - Network Service Discovery](https://attack.mitre.org/techniques/T1046/) | Rapid probes across multiple destination ports and HTTP service enumeration. | Observed service-discovery behavior. |
+| [T1135 - Network Share Discovery](https://attack.mitre.org/techniques/T1135/) | SMB requests targeting the `IPC$` and `Documents` shares. | Observed share probing. |
+| [T1505.003 - Server Software Component: Web Shell](https://attack.mitre.org/techniques/T1505/003/) | SMB file operations involving `shell.aspx` on the IIS host. | Suspected web-shell placement, contents and execution remain unverified. |
+| [T1547.001 - Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001/) | The executable's reported path is in the common Startup folder. | Potential logon persistence, automatic execution at logon was not observed. |
+| [T1027.002 - Obfuscated Files or Information: Software Packing](https://attack.mitre.org/techniques/T1027/002/) | UPX classification and supporting strings. | Packing observed, packing alone does not establish malicious intent. |
 
 ---
 
