@@ -451,12 +451,12 @@ Further investigation should check SMB response status and HTTP invocation of `s
 ---
 
 ## Reference
-- [CyberDefenders — Lockdown](https://cyberdefenders.org/blueteam-ctf-challenges/lockdown/)
-- [Microsoft — IIS Modules and Web-Shell Detection](https://www.microsoft.com/en-us/security/blog/2022/12/12/iis-modules-the-evolution-of-web-shells-and-how-to-detect-them/)
-- [MITRE ATT&CK — T1046: Network Service Discovery](https://attack.mitre.org/techniques/T1046/)
-- [MITRE ATT&CK — T1135: Network Share Discovery](https://attack.mitre.org/techniques/T1135/)
-- [MITRE ATT&CK — T1505.003: Server Software Component: Web Shell](https://attack.mitre.org/techniques/T1505/003/)
-- [MITRE ATT&CK — T1547.001: Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001/)
+- [CyberDefenders - Lockdown](https://cyberdefenders.org/blueteam-ctf-challenges/lockdown/)
+- [Microsoft - IIS Modules and Web-Shell Detection](https://www.microsoft.com/en-us/security/blog/2022/12/12/iis-modules-the-evolution-of-web-shells-and-how-to-detect-them/)
+- [MITRE ATT&CK - T1046: Network Service Discovery](https://attack.mitre.org/techniques/T1046/)
+- [MITRE ATT&CK - T1135: Network Share Discovery](https://attack.mitre.org/techniques/T1135/)
+- [MITRE ATT&CK - T1505.003: Server Software Component: Web Shell](https://attack.mitre.org/techniques/T1505/003/)
+- [MITRE ATT&CK - T1547.001: Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder](https://attack.mitre.org/techniques/T1547/001/)
 - [MITRE ATT&CK — T1027.002: Obfuscated Files or Information: Software Packing](https://attack.mitre.org/techniques/T1027/002/)
 
 ---
