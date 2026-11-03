@@ -1,4 +1,4 @@
-# SOC & Blue Team Write-ups
+# 🛡️ SOC & Blue Team Write-ups
 
 My personal archive of SOC investigations, Blue Team labs, and defensive security write-ups.
 
