@@ -264,6 +264,8 @@ The analysis uses three provided artifacts:
 
 - **Flag:** `Conted.bat,Conted.ps1,Conted.vbs`
 
+---
+
 ## Findings
 
 The investigation reconstructed a malware delivery chain involving an obfuscated script, content delivered under a `.jpg` filename, and a decoded executable classified by Alibaba as **AsyncRAT**.
@@ -285,6 +287,8 @@ The investigation reconstructed a malware delivery chain involving an obfuscated
 
 The reviewed evidence supports payload retrieval and analysis of the script's intended behavior. The initial access method, successful host execution, completed file creation, command-and-control communication, and established persistence were not independently confirmed.
 
+---
+
 ## Indicators
 
 | Type | Value | Context |
@@ -303,6 +307,8 @@ The reviewed evidence supports payload retrieval and analysis of the script's in
 1eb7b02e18f67420f42b1d94e74f3b6289d92672a0fb1786c30c03d68e81d798
 ```
 
+---
+
 ### Lessons Learned
 
 - **Inspect content beyond filenames and MIME types.** The `/mdm.jpg` response contained script and encoded payload data despite its image-like presentation.
@@ -310,6 +316,8 @@ The reviewed evidence supports payload retrieval and analysis of the script's in
 - **Hash the intended artifact.** Calculate the executable hash from the decoded bytes and retain separate identities for the enclosing script, loader, and malware executable.
 - **Correlate static behavior with endpoint evidence.** Process creation records, PowerShell logs, file-write telemetry, and scheduled-task records would help validate execution, file creation, and persistence.
 - **Keep timestamps and evidence types explicit.** Label packet times as relative capture time, preserve the timezone of sample metadata, and attribute malware-family labels to the reporting vendor.
+
+---
 
 ## Reference
 - [CyberChef - decoding and hashing](https://gchq.github.io/CyberChef/)
