@@ -207,6 +207,8 @@ The analysis uses one provided artifact:
 
 - **Flag:** `e758e07113016aca55d9eda2b0ffeebe`
 
+---
+
 ## Findings
 
 The documented investigation reconstructed a two-stage delivery chain: an obfuscated JavaScript attachment retrieved through `portfolio.serveirc.com/login.php`, followed by a DLL retrieved from `soundata.top`.
@@ -264,9 +266,7 @@ e758e07113016aca55d9eda2b0ffeebe
 ```
 ---
 
-## Lessons Learned and References
-
-### Lessons Learned
+## Lessons Learned 
 
 - **Correlate request paths with attachment metadata.** `/login.php` was the requested endpoint and exported object name, while the response identified the attachment as `allegato_708.js`.
 - **Preserve original bytes before hashing.** Calculate hashes from the recovered HTTP objects before editing or deobfuscating their contents. Copying text or adding a newline can change the resulting hash.
@@ -274,7 +274,9 @@ e758e07113016aca55d9eda2b0ffeebe
 - **Distinguish the script host from the DLL launcher.** The initial JavaScript host and the command constructed for the subsequent DLL have different roles in the chain.
 - **Keep conclusions tied to their evidence.** Network captures establish transfers, static analysis reveals intended behavior, and reputation reports provide external context. Endpoint telemetry would help validate execution and any later activity.
 
-### References
+---
+
+## References
 - [Obfuscator.io Deobfuscator](https://obf-io.deobfuscate.io/)
 - [VirusTotal - initial JavaScript report, Relations tab](https://www.virustotal.com/gui/file/847b4ad90b1daba2d9117a8e05776f3f902dda593fb1252289538acf476c4268/relations)
 - [Microsoft Learn - wscript](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wscript)
