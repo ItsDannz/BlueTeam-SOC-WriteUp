@@ -45,7 +45,7 @@ Conclusions are limited to the supplied artifacts and recovered content. Network
 - **Tactics:** Execution, Stealth
 
 ### Artifacts
-The analysis uses three provided artifacts:
+The analysis uses one provided artifact:
 
 - `236-XLMRat.pcap` - network traffic associated with the incident.
 
