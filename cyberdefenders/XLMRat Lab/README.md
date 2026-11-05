@@ -309,7 +309,7 @@ The reviewed evidence supports payload retrieval and analysis of the script's in
 
 ---
 
-### Lessons Learned
+## Lessons Learned
 
 - **Inspect content beyond filenames and MIME types.** The `/mdm.jpg` response contained script and encoded payload data despite its image-like presentation.
 - **Preserve reproducible decoding steps.** Record the HTTP stream, extracted hexadecimal block, CyberChef recipe, and Linux commands used to reconstruct obfuscated strings.
