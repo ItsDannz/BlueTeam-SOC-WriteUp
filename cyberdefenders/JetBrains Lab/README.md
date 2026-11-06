@@ -370,7 +370,7 @@ ip.src == 23.158.56.196 && http.request.method == "POST" && http contains "usern
 | Field | Value |
 |---|---|
 | Tactic | Impact |
-| Parent technique | Data Manipulation — T1565 |
+| Parent technique | Data Manipulation - T1565 |
 | Sub-technique | Stored Data Manipulation |
 | Sub-technique ID | T1565.001 |
 
