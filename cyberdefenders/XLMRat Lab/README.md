@@ -1,4 +1,4 @@
-# XLMRatLab Write Up
+# XLMRat Lab Write Up
 **Platform:** CyberDefenders
 
 ---
