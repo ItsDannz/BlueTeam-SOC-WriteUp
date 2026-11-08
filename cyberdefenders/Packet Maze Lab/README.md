@@ -1,4 +1,4 @@
-<img width="1634" height="942" alt="image" src="https://github.com/user-attachments/assets/c9c715ba-3a00-48c3-82ea-bbcfa4acf435" /># JetBrains Lab Write Up
+# JetBrains Lab Write Up
 **Platform:** CyberDefenders
 
 ---
