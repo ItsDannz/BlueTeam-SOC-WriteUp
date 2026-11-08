@@ -1,4 +1,4 @@
-# JetBrains Lab Write Up
+# PacketMaze Lab Write Up
 **Platform:** CyberDefenders
 
 ---
